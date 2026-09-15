@@ -1,3 +1,0 @@
-import type { Metadata } from "next";import "./globals.css";
-export const metadata:Metadata={metadataBase:new URL("https://kl-tech.co.uk"),title:{default:"KL-TECH | Telecom, Cloud, AI & Digital Transformation",template:"%s | KL-TECH"},description:"UK technology consultancy for telecom, 5G, cloud-native, DevOps, AI automation and website development.",openGraph:{title:"KL-TECH",description:"Telecom, Cloud, AI and Digital Transformation",url:"https://kl-tech.co.uk",siteName:"KL-TECH",type:"website"},robots:{index:true,follow:true}};
-export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en-GB"><body>{children}</body></html>}
