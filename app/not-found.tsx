@@ -1,0 +1,1 @@
+import Link from "next/link";export default function NotFound(){return <main className="page-hero" style={{minHeight:"100vh"}}><div className="container"><div className="eyebrow">404</div><h1>Page not found</h1><p>The page may have moved or no longer exists.</p><Link className="button" href="/">Return home</Link></div></main>}

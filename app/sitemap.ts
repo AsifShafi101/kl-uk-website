@@ -1,0 +1,1 @@
+import type { MetadataRoute } from "next";export default function sitemap():MetadataRoute.Sitemap{const p=["","about","services","technologies","insights","contact","privacy","cookies","terms","accessibility"];return p.map(x=>({url:`https://kl-tech.co.uk/${x}`,lastModified:new Date(),changeFrequency:x===""?"weekly":"monthly",priority:x===""?1:.7}))}
