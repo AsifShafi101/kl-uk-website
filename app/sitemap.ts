@@ -23,4 +23,3 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: page === "" ? 1 : 0.7,
   }));
 }
-`
