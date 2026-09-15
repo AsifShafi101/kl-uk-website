@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kl-tech.co.uk/sitemap.xml
